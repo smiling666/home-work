@@ -1,0 +1,57 @@
+html,
+body{
+    height: 100%;
+}
+body{
+    margin: 0;
+    background:  no-repeat center/cover;
+}
+.wrapper{
+  overflow: hidden;
+  font-family: 'Raleway', sans-serif;
+ justify-content: center;
+ align-items: center;
+ min-height: 100%;
+ display: flex;
+ animation: gradient forwards;
+}
+.content{
+    border: dashed ;
+    height: 356px;
+    width: 250px;
+   padding: 15px;
+   border-radius: 50px 50px 50px 50px;
+    
+}
+.poem{
+    font-size: 17px;
+}
+@keyframes gradient {
+    0%{
+         background: rgb(40, 88, 40);
+    }
+    50%{
+        background: rgb(199, 191, 191);
+    }
+    100%{
+        background: rgb(74, 148, 74);
+    }
+}
+.submit{ 
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+   justify-content: center;
+   align-items: center;
+   min-height: 100%;
+   display: flex;
+   animation: gradient forwards;
+  
+
+}
+button{
+    height: 50px;
+    width: 150px;
+    font-size: 30px;
+    border-radius: 5px;
+    background: rgb(74, 139, 74);
+}
